@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Raleway&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +9,7 @@ nav a{
     text-align: center;
     color: #202c32;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1{
@@ -32,6 +35,10 @@ main section{
 
 body{
     background-color: #f1f7f6;
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -47,6 +54,10 @@ nav a:hover{
     background-color: #f1f7f6;
     color: blue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
     
 }
 
@@ -62,10 +73,15 @@ nav a:hover{
 .footer{
     background-color: #f1f7f6;
     color: #202c32;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title{
     color: #202c32;
+    font-family: 'Kanit';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -74,10 +90,13 @@ h4 {
 
 .msg h2{
     color: #202c32;
+    font-family: 'Kanit';
 }
 
 .msg p{
     color: #202c32;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a{
@@ -95,6 +114,7 @@ footer a:hover{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img{
@@ -102,9 +122,38 @@ footer a:hover{
 }
 
 footer p{
-    font-size: 1.2em;
+    font-size: .8em; /* it was 1.2 before */
 }
 
 footer p a:hover{
     text-decoration: underline;
+}
+
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer.social img{
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #202c32;
+}
+
+main section img {
+    box-sizing: border-box;
 }
