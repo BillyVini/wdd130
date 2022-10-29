@@ -182,7 +182,7 @@ footer.social img{
 
 .card-img:hover {
     opacity: .6;
-    transform: sacle(1.1);
+    transform: scale(1.1);
 }
 
 main section img {
