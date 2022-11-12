@@ -5,6 +5,21 @@
     margin: 0 auto;
 }
 
+#river-main{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+h4.river-description {
+    font-size: 20px;
+    color: #6f7364;
+    text-align: center;
+}
+
+
+
 nav a{
     text-align: center;
     color: #202c32;
@@ -14,6 +29,13 @@ nav a{
 
 #hero-msg h1{
     text-align: center;
+}
+
+.rivers-title{
+    text-align: center;
+    color: white;
+    font-family: 'Kanit';
+    font-size: 3em;
 }
 
 #hero-msg h4{
@@ -200,7 +222,19 @@ hero {
     margin-top: -100px;
 }
 
+#river-hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
 #hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#river-hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
@@ -211,6 +245,28 @@ hero {
     grid-row: 1/2;
     margin-top: 100px;
 }
+
+#river-hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#river-hero-img{
+    width: 100%;
+}
+
+.river-img{
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 1%;
+
+}
+
+.text{
+    margin-bottom: 5%;
+}
+
 
 .home-grid {
     display: grid;
@@ -245,10 +301,23 @@ hero {
     #hero-msg h4 {
         display: none;
     }
+
     .home-title {
         font-size: 25px;
         color: #6f7364;
     }
+
+    h4.river-description {
+        font-size: 20px;
+        color: #6f7364;
+        text-align: center;
+    }
+
+    .rivers-title{
+        color: white;
+        text-align: center;
+    }
+
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
         width: 60%;
