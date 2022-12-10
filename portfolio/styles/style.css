@@ -168,7 +168,7 @@ footer.social img{
 }
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .iv-grid {
         display: block;
         height: auto;
     }
