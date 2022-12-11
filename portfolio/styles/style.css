@@ -65,7 +65,14 @@ header{
     margin: 0 auto;
 }
 
-#hero-msg{
+#brazil-img{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+
+}
+
+#hero-msg, #br-msg{
     text-align: center;
     margin-top: -3%;
 
@@ -99,6 +106,9 @@ h3{
 .context{
     grid-column: 3/6;
     text-align: center;
+    background-color: orange;
+    padding-left: 5%;
+
 }
 
 .context h3{
@@ -168,7 +178,7 @@ footer.social img{
 }
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid, .iv-grid {
+    #hero, .home-grid, .iv-grid, .br-grid{
         display: block;
         height: auto;
     }
