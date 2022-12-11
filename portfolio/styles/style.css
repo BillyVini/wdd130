@@ -65,14 +65,8 @@ header{
     margin: 0 auto;
 }
 
-#brazil-img{
-    width: 50%;
-    display: block;
-    margin: 0 auto;
 
-}
-
-#hero-msg, #br-msg{
+#hero-msg{
     text-align: center;
     margin-top: -3%;
 
@@ -106,7 +100,7 @@ h3{
 .context{
     grid-column: 3/6;
     text-align: center;
-    padding-left: 5%;
+    padding-left: 10%;
 
 }
 
@@ -145,6 +139,15 @@ h3{
 
 }
 
+.br-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 300px 300px 1fr;
+}
+
+.br-grid .context{
+    grid-template-columns: 1/4;
+}
 footer{
     background-color: #f1f7f6;
     color: #202c32;
@@ -222,7 +225,7 @@ footer.social img{
 
     .context{
         text-align: center;
-        padding: auto;
+        padding-left: 0;
     }
     #background {
         display: none;
