@@ -146,8 +146,24 @@ h3{
 }
 
 .br-grid .context{
-    grid-template-columns: 1/4;
+    grid-template-columns: 3/6;
 }
+
+.br-grid .problem{
+    grid-row: 2;
+
+}
+
+.br-grid .solution{
+    grid-row: 3;
+
+}
+
+.data-vis-1, .data-vis-2, .final{
+    grid-row: 4/5;
+    width: fit-content;
+}
+
 footer{
     background-color: #f1f7f6;
     color: #202c32;
