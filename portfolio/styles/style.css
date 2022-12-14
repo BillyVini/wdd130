@@ -183,21 +183,18 @@ h3{
 .data-viz-1 img{
     grid-column: 1/3;
     background-color: pink;
-    width: 100%;
 }
 
 .data-viz-2 img{
     grid-column: 3/5;
     /*padding-left: 10%;*/
     background-color: purple;
-    width: 100%;
 }
 
 .final img{
     grid-column: 5/7;
     /*padding-left: 20%;*/
     background-color: gold;
-    width: 100%;
 }
 
 footer{
