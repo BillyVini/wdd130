@@ -131,8 +131,11 @@ h3{
 .video{
     grid-column: 3/6;
     grid-row: 3/4;
-
 }
+.video video{
+    width: 100%;
+}
+
 .iv-grid h3{
     font-family: Inter;
     font-size: 2em;
