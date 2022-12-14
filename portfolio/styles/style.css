@@ -157,7 +157,7 @@ h3{
     text-align: center;
 }
 .br-grid .context{
-    grid-row: 1;
+    grid-row: 1/2;
     background-color: orange;
     grid-column-start: 3;
 }
