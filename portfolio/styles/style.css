@@ -148,8 +148,16 @@ h3{
     grid-template-rows: 1fr 300px 300px 1fr;
 }
 
+.government-bonds img{
+    width: 200%;
+    padding-top: 10%;
+}
+
+.government-bonds p{
+    text-align: center;
+}
 .br-grid .context{
-    grid-column: 3/6;
+    grid-row: 1;
 }
 
 .br-grid .problem{
@@ -159,12 +167,26 @@ h3{
 
 .br-grid .solution{
     grid-row: 3;
+    grid-column: 1/6;
 
 }
 
-.data-vis-1, .data-vis-2, .final{
-    grid-row: 4/5;
-    width: fit-content;
+.data-viz-1, .data-viz-2, .final{
+    grid-row: 4;
+}
+
+.data-viz-1 img{
+    grid-column: 1/2;
+}
+
+.data-viz-2 img{
+    grid-column: 3/4;
+    padding-left: 10%;
+}
+
+.final img{
+    grid-column: 5/6;
+    padding-left: 20%;
 }
 
 footer{
@@ -242,10 +264,24 @@ footer.social img{
         margin-bottom: 5%;
     }
 
+    .government-bonds img{
+        width: 100%;
+    }
+
+    .data-viz-2 img{
+        padding-left: 0%;
+
+    }
+    .final img{
+        padding-left: 0%;
+        width: 62%;
+    }
+
     .context{
         text-align: center;
         padding-left: 0;
     }
+
     #background {
         display: none;
     }
