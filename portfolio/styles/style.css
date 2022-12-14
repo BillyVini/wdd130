@@ -159,11 +159,12 @@ h3{
 .br-grid .context{
     grid-row: 1;
     background-color: orange;
-    grid-column: 3/7;
+    grid-column: 4/7;
 }
 
 .br-grid .problem{
     grid-row: 2;
+    grid-column: 1/7;
     width: 100%;
 
 }
