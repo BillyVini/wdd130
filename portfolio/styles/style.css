@@ -145,7 +145,7 @@ h3{
 .br-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 300px 300px 1fr;
+    grid-template-rows: 1fr 300px 300px 400px;
 }
 
 .government-bonds img{
