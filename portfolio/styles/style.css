@@ -149,7 +149,7 @@ h3{
 }
 
 .government-bonds img{
-    width: 100%;
+    width: 150%;
     padding-top: 10%;
 }
 
@@ -159,7 +159,7 @@ h3{
 .br-grid .context{
     grid-row: 1;
     background-color: orange;
-    grid-column: 4/7;
+    grid-column-start: 3;
 }
 
 .br-grid .problem{
