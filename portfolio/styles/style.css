@@ -270,11 +270,14 @@ footer.social img{
 
     .data-viz-2 img{
         padding-left: 0%;
-
+        width: 100%;
+    }
+    .data-viz-1 img{
+        width: 100%;
     }
     .final img{
         padding-left: 0%;
-        width: 62%;
+        width: 100%;
     }
 
     .context{
@@ -287,5 +290,8 @@ footer.social img{
     }
     footer {
         margin-top: 25px;
+    }
+    .iv-form img{
+        width: 100%;
     }
 }
