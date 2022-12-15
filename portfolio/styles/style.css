@@ -158,6 +158,7 @@ h3{
 }
 .br-grid .context{
     grid-row: 1;
+    padding-left: 0;
 }
 
 .br-grid .problem{
